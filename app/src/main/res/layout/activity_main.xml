@@ -12,12 +12,12 @@
     tools:context="com.plgf.qqdemo.MainActivity">
 
 
-    <com.plgf.qqdemo.PayPsdInputView
+    <com.plgf.qqdemo.PwdEditText
         android:id="@+id/paypadinputview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        app:maxCount="6"
+        app:isPwd="false"
         />
 
     <com.plgf.qqdemo.QQinfo
